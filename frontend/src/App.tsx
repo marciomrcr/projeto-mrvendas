@@ -1,4 +1,5 @@
-import DataTable from "components/DataTable";
+import DataTableClient from "components/DataTableClient";
+import DataTableConsultor from "components/DataTableConsultor";
 import Footer from "components/Footer";
 import NavBar from "components/NavBar";
 import React from "react";
@@ -11,7 +12,9 @@ function App() {
       <div className="container">
         <h1 className="text-primary">MRVendas</h1>
         <div>Resumo por Consultor</div>
-        <DataTable />
+        <DataTableClient />
+        <div>Resumo por Cliente</div>
+        <DataTableConsultor />
       </div>
       <Footer />
     </> //fecha fragment
