@@ -4,7 +4,7 @@ const DataTableClient = () => {
       <table className="table table-striped table-sm">
         <thead>
           <tr>
-            <th>Consultor</th>
+            <th>Cliente</th>
             <th>Propostas Emitidas</th>
             <th>Negócios fechados</th>
             <th>Valor</th>
@@ -12,36 +12,35 @@ const DataTableClient = () => {
         </thead>
         <tbody>
           <tr>
-            <td>Lobato</td>
-            <td>34</td>
-            <td>25</td>
+            <td>Lucena</td>
+            <td>03</td>
+            <td>01</td>
             <td>50.000.00</td>
           </tr>
           <tr>
-            <td>Lucas</td>
-            <td>34</td>
-            <td>25</td>
+            <td>Log Comercial</td>
+            <td>04</td>
+            <td>02</td>
             <td>50.000.00</td>
           </tr>
           <tr>
-            <td>Nara Almeida</td>
-            <td>34</td>
-            <td>25</td>
+            <td>Transglobal</td>
+            <td>03</td>
+            <td>03</td>
             <td>50.000.00</td>
           </tr>
           <tr>
-            <td>Onilza Souza</td>
-            <td>34</td>
-            <td>25</td>
+            <td>RS Engenharia</td>
+            <td>01</td>
+            <td>01</td>
             <td>50.000.00</td>
           </tr>
         </tbody>
         <thead>
           <tr>
             <th>Totalizadores</th>
-            <th></th>
-            <th>136</th>
-            <th>100</th>
+            <th>11</th>
+            <th>07</th>
             <th>200.000,00</th>
           </tr>
         </thead>

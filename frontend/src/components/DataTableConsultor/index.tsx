@@ -39,7 +39,6 @@ const DataTableConsultor = () => {
         <thead>
           <tr>
             <th>Totalizadores</th>
-            <th></th>
             <th>136</th>
             <th>100</th>
             <th>200.000,00</th>
