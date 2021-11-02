@@ -1,3 +1,6 @@
+import BarChart from "components/BarChart";
+import DonutChart from "components/DonutChart";
+
 import DataTableClient from "components/DataTableClient";
 import DataTableConsultor from "components/DataTableConsultor";
 import Footer from "components/Footer";
@@ -10,10 +13,26 @@ function App() {
     <>
       <NavBar />
       <div className="container">
-        <h1 className="text-primary">MRVendas</h1>
-        <div>Resumo por Consultor</div>
+        <h1 className="text-primary py-3">MRVendas</h1>
+        <div className="row px-3">
+          <div className="col-sm-6">
+            <h5 className="text-center text-secondary">Sucesso %</h5>
+            <BarChart />
+          </div>
+          <div className="col-sm-6">
+            <h5 className="text-center text-secondary">Sucesso %</h5>
+            <DonutChart />
+          </div>
+        </div>
+
+        <div className="py-3">
+          <h3 className="text-primary">Resumo por Consultor</h3>
+        </div>
         <DataTableClient />
-        <div>Resumo por Cliente</div>
+        <div className="py-3">
+          <h3 className="text-primary">Resumo por Cliente</h3>
+        </div>
+
         <DataTableConsultor />
       </div>
       <Footer />
