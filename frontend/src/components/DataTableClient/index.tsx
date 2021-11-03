@@ -12,7 +12,7 @@ const DataTableClient = () => {
         </thead>
         <tbody>
           <tr>
-            <td>Lucena</td>
+            <td>Luc Engenharia</td>
             <td>03</td>
             <td>01</td>
             <td>50.000.00</td>
@@ -24,13 +24,13 @@ const DataTableClient = () => {
             <td>50.000.00</td>
           </tr>
           <tr>
-            <td>Transglobal</td>
+            <td>TransPort</td>
             <td>03</td>
             <td>03</td>
             <td>50.000.00</td>
           </tr>
           <tr>
-            <td>RS Engenharia</td>
+            <td>RFC Engenharia</td>
             <td>01</td>
             <td>01</td>
             <td>50.000.00</td>
